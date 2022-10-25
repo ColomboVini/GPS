@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #map {
+    height: 100%;
+    }
+    html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    </style>
+</head>
+
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+<script defer src="./init-firebase.js"></script>
+
+<body>
+    <div id="map"></div>
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEz5CG0DxWX-MKQBGUW3II5d6ANhsFf6o&libraries=visualization&callback=initMap">
+        </script>
+    <script src="firebasemap.js"></script>
+    <script src="init-firebase.js"></script>
+</body>
+
+</html>
